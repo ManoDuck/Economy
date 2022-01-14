@@ -1,0 +1,26 @@
+messages:
+  errors:
+    incorrect-target: '&cEste comando é destinado apenas à jogadores.'
+    no-permission: '&cVocê não tem permissão para executar este comando.'
+    empty-top: '&cO servidor ainda não possui  nenhum jogador registrado.'
+
+  command-messages:
+    player-balance: '&aVocê possui &f{balance} &ade coins.'
+    target-balance: '&aO jogador &f{player} &apossui &f{balance} &ade coins.'
+    money-pay: '&aVocê enviou &f{balance} &acoins para &f{player}&a.'
+    money-receive: '&aVocê recebeu &f{balance} &ade coins de &f{player}&a.'
+    money-set: '&aO saldo de &f{player} &afoi definido para &f{balance} &acoins.'
+    money-add: '&aForam adicionadas &f{balance} &acoins para &f{player}&a.'
+    money-help:
+      - ''
+      - '&aComandos disponíveis:'
+      - ''
+      - '&a/money ajuda &8- &fVer comandos disponíveis.'
+      - '&a/money top &8- &fVer os jogadores mais ricos do servidor.'
+      - '&a/money pay <jogador> <quantia> &8- &fEnviar money a um jogador.'
+      - ''
+
+  money-top:
+    header: '&aTop &l10 &ajogadores mais ricos do servidor!'
+    footer: '&aRanking atualizado a cada 15 minutos'
+    tycoon-tag: '&a[$] '

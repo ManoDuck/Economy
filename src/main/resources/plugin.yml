@@ -1,0 +1,11 @@
+name: Economy
+version: '1.0.0'
+main: com.github.manoduck.economy.EconomyPlugin
+author: ManoDuck
+depend: [Vault]
+softdepend:
+  - LegendChat
+  - nChat
+commands:
+  money:
+    aliases: [coins, coin, moedas, dinheiro, balance, saldo]
