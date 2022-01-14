@@ -29,7 +29,7 @@ public class EconomyPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
 
-        getLogger().info("Iniciando o carregamento do plugin.");
+        getLogger().info("Iniciando o carregamento do plugin!");
 
         databaseConnector = new DatabaseConnector(
                 getConfig().getString("MySQL.url"),
