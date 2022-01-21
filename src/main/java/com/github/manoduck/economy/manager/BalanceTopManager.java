@@ -19,7 +19,7 @@ public class BalanceTopManager {
         balanceTopList = Lists.newArrayList();
 
         Bukkit.getScheduler().runTaskTimerAsynchronously(plugin, () ->
-                balanceTopList = plugin.getEconomyRepository().getBalanceTop(), 0L, 20L*60*5);
+                balanceTopList = plugin.getEconomyRepository().getBalanceTop(), 0L, 20L*60*15);
 
     }
 

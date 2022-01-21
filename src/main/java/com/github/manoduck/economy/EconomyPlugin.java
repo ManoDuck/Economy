@@ -55,6 +55,17 @@ public class EconomyPlugin extends JavaPlugin {
     }
 
     @Override
-    public void onDisable() {}
+    public void onDisable() {
 
+        userManager.getUserList().forEach(user -> {
+
+            if (economyRepository.userExists(user.getName()))
+                economyRepository.updateUser(user);
+
+            else
+                economyRepository.createUser(user);
+
+        });
+
+    }
 }
